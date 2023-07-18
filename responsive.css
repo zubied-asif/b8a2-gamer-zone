@@ -1,0 +1,28 @@
+@media screen and (max-width:576px) {
+    .banner-container, .nav-container,.nav-menu{
+        flex-direction: column;
+    }
+    .nav-container{
+        /* padding: auto; */
+        /* margin-left: 0px; */
+    }
+    .nav-menu{
+        padding: 20px;
+        margin-left: 120px;
+    }
+    .banner-img img {
+        height: 40vh;
+    }
+    .banner-text {
+         width: 95%;
+    
+      height: 70vh; 
+        display: flex;
+        padding: 5px;
+        flex-direction: row;
+    }
+    .nav-container{
+      margin-left: 50px;
+      
+    }
+}
