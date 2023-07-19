@@ -161,7 +161,6 @@ span {
     font-size: 18px;
     font-weight: 600;
     text-transform: uppercase;
-    /* margin-right: 20px; */
     cursor: pointer;
 
 }
@@ -185,7 +184,7 @@ span {
 
 /* We are gamer section styles */
 .gamer-container {
-    height: 60vh;
+    
     background: linear-gradient(90deg, rgba(218, 208, 213, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     display: flex;
     align-items: center;
@@ -270,6 +269,7 @@ span {
 
 .cards-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
     cursor: grab;
@@ -335,18 +335,20 @@ span {
 
 /* game selector section */
 .game-selector-section {
-    height: 50vh;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding: 170px 0px;
 
 }
 
 .game-container {
-    padding: 100px 0px;
+    /* margin: 100px 0px; */
 }
 
 
 .games {
     display: flex;
+    flex-wrap: wrap;
+
     align-items: center;
     justify-content: center;
     gap: 50px;
@@ -372,9 +374,6 @@ span {
 }
 
 .game-divs:hover {
-    /* text-decoration: underline; */
-    /* background: transparent; */
-    /* border: 2px solid black; */
     color: #222;
     border: 1px solid hotpink;
 
@@ -384,9 +383,10 @@ span {
 
 /* footer section styles */
 footer {
-    height: 55vh;
+    /* height: 55vh; */
     background: #0B0223;
     color: aliceblue;
+    padding-bottom: 100px;
 }
 
 .footer-logo-title {
@@ -409,6 +409,7 @@ footer {
     justify-content: center;
     gap: 15px;
     padding-top: 100px;
+    flex-wrap: wrap;
 }
 
 .flex-div-one {
@@ -421,6 +422,7 @@ footer {
     font-size: 18px;
     font-weight: 600;
     cursor: pointer;
+    flex-wrap: wrap;
 
 
 }
@@ -436,6 +438,7 @@ footer {
     gap: 30px;
     padding-top: 55px;
     cursor: pointer;
+    flex-wrap: wrap;
 
 }
 
@@ -449,6 +452,7 @@ footer {
     text-align: center;
     font-size: 16px;
     font-weight: 500;
+    flex-wrap: wrap;
 
 }
 
@@ -461,5 +465,6 @@ footer {
     font-size: 16px;
     font-weight: 500;
     color: rgba(255, 255, 255, 0.60);
+    
 
 }
