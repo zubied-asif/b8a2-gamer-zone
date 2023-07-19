@@ -6,11 +6,6 @@
         flex-direction: column;
     }
 
-    .nav-container {
-        /* padding: auto; */
-        /* margin-left: 0px; */
-    }
-
     .nav-menu {
         padding: 20px;
         margin-left: 120px;
