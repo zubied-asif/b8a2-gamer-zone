@@ -266,6 +266,34 @@ span {
 .description {
     padding: 50px;
 }
+.cards {
+    position: relative;
+  }
+  
+  .extra2 {
+    margin-top: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .extra {
+    position: absolute;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 85%;
+    border-radius: 20px;
+    visibility: hidden;
+  }
+  
+  .cards:hover > .extra{
+    position: absolute;
+    top: 0;
+    visibility: visible;
+  }
+  
 
 .cards-container {
     display: flex;
